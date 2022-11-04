@@ -4,7 +4,7 @@
 
  <!-- Device Trees -->
 
- <project path="device/xiaomi/markw" name="rianza/android_device_xiaomi_markw" remote="github" revision="DerpfestOS-12.1" />
+ <project path="device/xiaomi/markw" name="rianza/android_device_xiaomi_markw" remote="github" revision="lineage-19.1" />
 
  <project path="vendor/xiaomi" name="SonicBSV/proprietary_vendor_xiaomi" remote="github" revision="lineage-19.1" />
 
