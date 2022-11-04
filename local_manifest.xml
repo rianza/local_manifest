@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+ <!-- Device Trees -->
+
+ <project path="device/xiaomi/markw" name="rianza/android_device_xiaomi_markw" remote="github" revision="DerpfestOS-12.1" />
+
+ <project path="vendor/xiaomi" name="SonicBSV/proprietary_vendor_xiaomi" remote="github" revision="lineage-19.1" />
+
+ <project path="kernel/xiaomi/markw" name="SonicBSV/android_kernel_xiaomi_markw_new" remote="github" revision="T" />
+
+ 
+
+ 
+
+ <!-- (Clang) -->
+
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" />
+
+ 
+
+ <!-- Remove things for conflicts of lineage on cirrus 
+
+  <remove-project name="build/make" />
+
+  <remove-project name="lineage-sdk" />
+
+  <remove-project name="packages/apps/Settings" />
+
+  <remove-project name="frameworks/base" />
+
+  <remove-project name="system/core" />
+
+ -->
+
+</manifest>
