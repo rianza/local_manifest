@@ -12,7 +12,25 @@
 
  
 
+  <!-- (Clang) -->
+
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" />
+
  
+
+ <!-- Remove things for conflicts of lineage on cirrus 
+
+  <remove-project name="build/make" />
+
+  <remove-project name="lineage-sdk" />
+
+  <remove-project name="packages/apps/Settings" />
+
+  <remove-project name="frameworks/base" />
+
+  <remove-project name="system/core" />
+
+ -->
 
  
 
