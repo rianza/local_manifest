@@ -10,7 +10,7 @@
 	 fetch="https://github.com/AOSP-Silicon" />
 
  <!-- Evolution X specific markw source trees -->
- <project path="device/xiaomi/markw" name="SonicBSV/android_device_xiaomi_markw" remote="github" revision="evolution-x-tiramisu" clone-depth="1" />
+ <project path="device/xiaomi/markw" name="rianza/android_device_xiaomi_markw1" remote=github revision="evolution-x-tiramisu" clone-depth="1" />
  <project path="vendor/xiaomi" name="SonicBSV/proprietary_vendor_xiaomi" remote="github" revision="T" clone-depth="1" />
  <project path="kernel/xiaomi/markw" name="SonicBSV/android_kernel_xiaomi_markw_new" remote="github" revision="T" clone-depth="1" />
 
